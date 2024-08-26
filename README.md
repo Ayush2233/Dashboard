@@ -6,4 +6,5 @@ To install Angular CLI run npm install -g @angular/cli
 
 - 1. Navigate into the project directory and open terminal.
 
-- 2. Run the "ng-serve" command.
+- 2. run npm install
+  3. Run the "ng-serve" command.
