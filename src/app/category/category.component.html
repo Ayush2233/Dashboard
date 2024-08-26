@@ -1,0 +1,17 @@
+<!-- category.component.html -->
+ <div class="tophead">
+  <h2 style="font-weight: bold;">{{ category.name }}</h2>
+ </div>
+
+<div class="category">
+    
+    <div *ngFor="let widget of category.widgets">
+      <app-widget [widget]="widget" [categoryName]="category.name"></app-widget>
+    </div>
+    
+    <div class="buttoncard">
+      <button class="addwidbutton" (click)="openAddWidgetDialog()">+ Add Widget</button>
+    </div>
+    
+  </div>
+  

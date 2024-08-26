@@ -1,0 +1,32 @@
+<!-- <h1 mat-dialog-title>Edit Widgets in {{ data.categoryName }}</h1>
+<div mat-dialog-content>
+  <mat-selection-list [(ngModel)]="selectedWidgets">
+    <mat-list-option *ngFor="let widget of data.widgets" [value]="widget.name">
+      {{ widget.name }}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button (click)="onSave()">Save</button>
+</div>
+ -->
+
+ <h2 mat-dialog-title>Manage Widgets</h2>
+<mat-dialog-content>
+  <mat-tab-group>
+    <mat-tab *ngFor="let category of categories" (click)="selectCategory(category)" [label]="category.name">
+
+      <mat-selection-list [(ngModel)]="selectedWidgets" #widgetsList>
+        <mat-list-option *ngFor="let widget of category.widgets" [value]="widget.name" selected>
+          {{ widget.name }}
+        </mat-list-option>
+      </mat-selection-list>
+    </mat-tab>
+  </mat-tab-group>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="close()">Close</button>
+  <button mat-button color="primary" (click)="onSave()">Save</button>
+</mat-dialog-actions>
+

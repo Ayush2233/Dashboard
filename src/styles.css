@@ -1,0 +1,45 @@
+/* styles.css */
+
+.mat-typography{
+    font-family: 'Montserrat';
+    background-color: #F0F5FA;
+    margin: 0;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 0;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

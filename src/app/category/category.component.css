@@ -1,0 +1,80 @@
+/* category.component.css */
+
+.category {
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: #F0F0F5;
+  }
+
+  .tophead
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tophead button
+  {
+    height: 50%;
+  }
+  
+  .category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .category h3 {
+    margin: 0;
+  }
+  
+  .category button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .buttoncard {
+
+    background-color: #ffffff;
+    /* background-color: red; */
+    width: 25vw;
+    height: 12vw;
+    border: 1px dashed #4f4b4b;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap:wrap;
+  }
+
+.addwidbutton
+{
+  background-color: transparent;
+  border: 1px solid #28282d;
+  color: #28282d;
+  font-weight: bolder;
+  
+}
+
+.addwidbutton:hover
+{
+  background-color:#28282d ;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  
+}
+  
+  

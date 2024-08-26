@@ -1,0 +1,20 @@
+<!-- dashboard.component.html -->
+<br>
+ <div class="mainhead">
+  <p>Ayush Agarwal Dashboard</p>
+  <button class="button-86" (click)="openDialog()">Edit Widgets</button>
+ </div>
+
+<br>
+<br>
+
+
+
+
+<div *ngFor="let category of categories">
+    <app-category [category]="category"></app-category>
+  </div>
+  
+
+
+  
