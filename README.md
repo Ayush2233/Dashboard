@@ -4,6 +4,6 @@ This project is made using Angular JS so make sure the system has Node and Angul
 
 To install Angular CLI run npm install -g @angular/cli
 
-- 1. Navigate into the project directory.
+- 1. Navigate into the project directory and open terminal.
 
 - 2. Run the "ng-serve" command.
